@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Funcția care returnează numele zilei săptămânii
 
 function getDayOfWeek(dayNumber) {
@@ -24,4 +25,31 @@ function getDayOfWeek(dayNumber) {
 // Exemple de utilizare
 console.log(getDayOfWeek(1)); // Output: "Luni"
 console.log(getDayOfWeek(5)); // Output: "Vineri"
+=======
+// Funcția care returnează numele zilei săptămânii
+function getDayOfWeek(dayNumber) {
+    switch(dayNumber) {
+        case 1:
+            return "Luni";
+        case 2:
+            return "Marți";
+        case 3:
+            return "Miercuri";
+        case 4:
+            return "Joi";
+        case 5:
+            return "Vineri";
+        case 6:
+            return "Sâmbătă";
+        case 7:
+            return "Duminică";
+        default:
+            return "Număr invalid. Introduceți un număr între 1 și 7.";
+    }
+}
+
+// Exemple de utilizare
+console.log(getDayOfWeek(1)); // Output: "Luni"
+console.log(getDayOfWeek(5)); // Output: "Vineri"
+>>>>>>> ce9f252a504c915f8f61e8c0be06c19add235086
 console.log(getDayOfWeek(8)); // Output: "Număr invalid. Introduceți un număr între 1 și 7."
